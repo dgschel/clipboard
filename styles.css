@@ -43,5 +43,10 @@ footer {
     background-color: hsl(201, 11%, 95%);
 }
 
+footer li:hover {
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
