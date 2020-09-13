@@ -1,0 +1,47 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    color:hsl(210, 10%, 33%);
+    font-weight: 600 !important;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+}
+
+.ios {
+    background-color: hsl(171, 66%, 44%);
+    color: #fff;
+}
+
+.mac {
+    background-color: hsl(233, 100%, 69%);
+    color: #fff;
+}
+
+h2 {
+    color:hsl(210, 10%, 33%);
+    font-weight: 600 !important;
+}
+
+.feature-subheader {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+}
+
+footer {
+    background-color: hsl(201, 11%, 95%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

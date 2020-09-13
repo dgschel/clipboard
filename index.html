@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" type="text/css">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+  <title>Frontend Mentor | Clipboard landing page</title>
+</head>
+
+<body>
+  <header class="relative">
+    <div class="xl:container mx-auto text-center">
+      <div class="py-16 px-4">
+        <div class="pt-20">
+          <img class="mx-auto" src="images/logo.svg" alt="logo">
+        </div>
+        <div class="mt-12 sm:w-3/5 mx-auto">
+          <h1 class="text-3xl leading-snug">A history of everything you copy</h1>
+          <p class="my-4">Clipboard allows you to track and organize everything you
+            copy. Instantly access your clipboard on all your devices.</p>
+        </div>
+        <div class="mt-12">
+          <button type="button"
+            class="ios mx-auto sm:mx-0 p-4 rounded-full w-full sm:w-64 shadow-xl mb-4 sm:mb-0 sm:mr-4">Download for
+            iOS</button>
+          <button type="button" class="mac mx-auto sm:mx-0 p-4 rounded-full w-full sm:w-64 shadow-xl">Download for
+            Mac</button>
+        </div>
+      </div>
+    </div>
+    <img class="absolute top-0 left-0 w-full hidden sm:block" src="images/bg-header-desktop.png"
+      alt="background desktop">
+    <img class="absolute top-0 left-0 w-full block sm:hidden" src="images/bg-header-mobile.png" alt="background mobile">
+  </header>
+
+  <div class="xl:container mx-auto text-center px-4 py-10">
+    <div class="my-16">
+      <div class="sm:w-3/5 mx-auto">
+        <h2 class="text-3xl leading-snug">Keep track of your snippets</h2>
+        <p class="feature-subheader m-4"> Clipboard instantly stores any item you copy in the cloud,
+          meaning you can access your snippets immediately on all your
+          devices. Our Mac and iOS apps will help you organize everything.</p>
+      </div>
+      <div class="flex flex-col sm:flex-row my-20">
+        <div class="py-6 sm:p-0 sm:w-9/12">
+          <img class="sm:-ml-40 mx-auto" src="images/image-computer.png" alt="computer">
+        </div>
+        <div class="py-6 sm:p-0 sm:text-left">
+          <div class="my-12">
+            <h2 class="text-2xl">Quick Search</h2>
+            <p class="my-2">Easily search your snippets by content, category, web address, application, and more.</p>
+          </div>
+          <div class="my-12">
+            <h2 class="text-2xl">iCloud Sync</h2>
+            <p class="my-2">Instantly saves and syncs snippets across all your devices.</p>
+          </div>
+          <div class="my-12">
+            <h2 class="text-2xl">Complete History</h2>
+            <p class="my-2">Retrieve any snippets from the first moment you started using the app.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="my-16">
+      <div class="sm:w-3/5 mx-auto">
+        <h2 class="text-3xl leading-snug">Access Clipboard anywhere</h2>
+        <p class="m-4">Whether you’re on the go, or at your computer, you can access all your Clipboard
+          snippets in a few simple clicks.</p>
+      </div>
+      <div class="mt-20">
+        <img class="mx-auto" src="images/image-devices.png" alt="devices">
+      </div>
+    </div>
+    <div class="my-16">
+      <div>
+        <h2 class="text-3xl leading-snug">Supercharge your workflow</h2>
+        <p class="my-4">We’ve got the tools to boost your productivity.</p>
+      </div>
+      <div class="flex flex-col sm:flex-row my-20">
+        <div class="p-4 flex-1">
+          <div class="sm:h-16 flex items-center">
+            <img class="mx-auto my-8" src="images/icon-blacklist.svg" alt="blacklist">
+          </div>
+          <h2>Create blacklists</h2>
+          <p class="my-4">Ensure sensitive information never makes its way to your clipboard by excluding certain
+            sources.</p>
+        </div>
+        <div class="p-4 flex-1">
+          <div class="sm:h-16 flex items-center">
+            <img class="mx-auto my-8" src="images/icon-text.svg" alt="text">
+          </div>
+          <h2>Plain text snippets</h2>
+          <p class="my-4">Remove unwanted formatting from copied text for a consistent look.</p>
+        </div>
+        <div class="p-4 flex-1">
+          <div class="sm:h-16 flex items-center">
+            <img class="mx-auto my-8" src="images/icon-preview.svg" alt="preview">
+          </div>
+          <h2>Sneak preview</h2>
+          <p class="my-4">Quick preview of all snippets on your Clipboard for easy access.</p>
+        </div>
+      </div>
+    </div>
+    <div class="my-16">
+      <ul class="flex flex-col sm:flex-row items-center justify-between py-12">
+        <li class="p-8"><img src="images/logo-google.png" alt="google"></li>
+        <li class="p-8"><img src="images/logo-ibm.png" alt="ibm"></li>
+        <li class="p-8"><img src="images/logo-microsoft.png" alt="microsoft"></li>
+        <li class="p-8"><img src="images/logo-hp.png" alt="hp"></li>
+        <li class="p-8"><img src="images/logo-vector-graphics.png" alt="vector-graphics"></li>
+      </ul>
+    </div>
+    <div class="my-16">
+      <div class="sm:w-3/5 mx-auto">
+        <h2 class="text-3xl leading-snug">Clipboard for iOS and Mac OS</h2>
+        <p class="my-4">Available for free on the App Store. Download for Mac or iOS, sync with iCloud
+          and you’re ready to start adding to your clipboard.</p>
+      </div>
+      <div class="mt-12">
+        <button type="button" class="ios mx-auto sm:mx-0 p-4 rounded-full w-full sm:w-64 shadow-xl mb-4 sm:mb-0 sm:mr-4">Download for
+          iOS</button>
+        <button type="button" class="mac mx-auto sm:mx-0 p-4 rounded-full w-full sm:w-64 shadow-xl">Download for Mac</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="xl:container mx-auto text-center py-16">
+      <div class="my-10 sm:flex items-center">
+        <div class="sm:mr-48">
+          <img class="w-12 mx-auto" src="images/logo.svg" alt="logo">
+        </div>
+        <div class="py-6 sm:py-0 sm:flex sm:text-left flex-1">
+          <ul class="sm:mr-32">
+            <li class="py-2">FAQs</li>
+            <li class="py-2">Contact Us</li>
+          </ul>
+          <ul class="sm:mr-32">
+            <li class="py-2">Privacy Policy</li>
+            <li class="py-2">Press Kit</li>
+          </ul>
+          <ul>
+            <li class="py-2">Install Guide</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="flex sm:flex-row items-center justify-center">
+            <li class="px-4"><img src="images/icon-facebook.svg" alt="facebook"></li>
+            <li class="px-4"><img src="images/icon-twitter.svg" alt="twitter"></li>
+            <li class="px-4"><img src="images/icon-instagram.svg" alt="instagram"></li>
+          </ul>
+        </div>
+      </div>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Dgschel</a>.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
